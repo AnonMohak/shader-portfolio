@@ -8,10 +8,13 @@ const toggleTheme = () => {
 };
 
 const loadTheme = () => {
-    const theme = localStorage.getItem('theme');
+    const theme = localStorage.getItem('theme') || 'light';
     if (theme === 'dark') {
         body.classList.add('dark-mode');
         themeToggle.textContent = '☀️';
+    } else {
+        body.classList.remove('dark-mode');
+        themeToggle.textContent = '🌙';
     }
 };
 
