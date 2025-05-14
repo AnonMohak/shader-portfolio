@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohak's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="shader-background">
+        <iframe src="https://www.shadertoy.com/embed/XXyGzh?gui=false&t=10&paused=false&muted=false" frameborder="0"></iframe>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="logo">Mohak</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm Mohak<span class="cursor"></span></h1>
+                <p>Software Developer</p>
+                <button class="cta-button">Get in Touch</button>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Mohak's Profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60" alt="Modern Web Application">
+                </div>
+                <h3>Modern Web Application</h3>
+                <p>A full-stack web application built with React and Node.js, featuring real-time updates and a modern UI.</p>
+                <div class="tech-stack">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=format&fit=crop&q=60" alt="E-Commerce Platform">
+                </div>
+                <h3>E-Commerce Platform</h3>
+                <p>A responsive e-commerce platform with secure payment integration and user authentication.</p>
+                <div class="tech-stack">
+                    <span>Next.js</span>
+                    <span>TypeScript</span>
+                    <span>Stripe</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link secondary">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60" alt="Analytics Dashboard">
+                </div>
+                <h3>Analytics Dashboard</h3>
+                <p>A data visualization dashboard with real-time analytics and customizable reports.</p>
+                <div class="tech-stack">
+                    <span>Vue.js</span>
+                    <span>D3.js</span>
+                    <span>Firebase</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link">Live Demo</a>
+                    <a href="#" class="project-link secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mohak. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
